@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.page{
+	width: 7.5rem;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	background: lightyellow;
+}
+
+.startGame{
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gaming{
+	background: mistyrose;
+	padding: 0.6rem;
+}
+
+.gaming .timu{
+    font-size: 0.5rem;
+    margin: 1rem 0;
+}
+
+.gaming .main{
+	font-size: 0.4rem;
+	margin: 1rem 0;
+	background: rgba(0,0,0,0.5);
+	border-radius: 0.2rem;
+	color: #fff;
+	padding: 0.4rem;
+}
+
+.gaming .main .optionItem{
+	padding: 0.2rem;
+	border-radius: 0.2rem;
+	
+}
+
+.startGame .startBtn{
+	width: 5rem;
+	height: 1.5rem;
+	font-size: 0.6rem;
+	line-height: 1.5rem;
+	border: none;
+	background: deepskyblue;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 20px #999;
+}
+
+.endGame{
+	font-size: 0.6rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.endGame h2{
+	font-size: 0.6rem;
+	align-items: center;
+	margin: 1rem 0;
+}
+
+.endGame h3{
+	font-size: 0.4rem;
+	align-items: center;
+	margin: 1rem 0;
+}
+
+.endGame .reStart{
+	width: 5rem;
+	height: 1.5rem;
+	font-size: 0.6rem;
+	line-height: 1.5rem;
+	border: none;
+	background: deepskyblue;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 20px #999;
+	text-align: center;
+}
+
+.clock{
+	width: 2rem;
+	height: 2rem;
+	border-radius: 0.5rem;
+	text-align: center;
+	line-height: 3rem;
+	background: url(../img/fire.gif);
+	margin: 1rem auto;
+	color: yellow;
+	font-size: 0.4rem;
+}
